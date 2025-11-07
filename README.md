@@ -1,7 +1,7 @@
 # 🌧️ Rainfall Analysis Dashboard — Power BI
 
-## 📘 Overview
-This project presents an interactive **Rainfall Analysis Dashboard** built using  
+## 🧭 Overview
+This project presents an **interactive Rainfall Analysis Dashboard** built using  
 **Azure Data Factory**, **Snowflake**, and **Power BI**.
 
 It provides a clear visualization of rainfall trends, temperature variations, and humidity patterns  
@@ -9,37 +9,49 @@ to support **data-driven decision-making** for agriculture and climate analysis.
 
 ---
 
-## 🧰 Tools & Technologies Used
+## 🌐 Live Dashboard
+👉 [**View the Interactive Power BI Dashboard**](<PASTE_YOUR_PUBLIC_POWERBI_LINK_HERE>)
+
+---
+
+## 🌟 Key Features
+- 🔄 Automated data ingestion using **Azure Data Factory**
+- ❄️ Scalable data storage and transformation using **Snowflake**
+- 📊 Real-time visualization with **Power BI**
+- 🌦️ Multi-parameter weather trend analysis — rainfall, temperature, and humidity
+- 🌾 Correlation insights between **rainfall patterns** and **crop yield**
+
+---
+
+## 💼 Tools & Technologies Used
 
 | Component | Purpose |
 |------------|----------|
 | **Azure Data Factory** | Data ingestion and pipeline automation |
-| **Snowflake** | Cloud data warehouse for storing and managing rainfall data |
-| **Power BI** | Visualization and interactive reporting |
+| **Snowflake** | Cloud data warehousing and transformation |
+| **Power BI** | Visualization and interactive dashboards |
 | **Azure Blob Storage** | Data staging and backup |
 | **Excel / CSV** | Raw data sources |
 
 ---
 
-## ⚙️ Data Flow Architecture
-## 🌟 Key Features
-- Automated data ingestion using **Azure Data Factory**
-- Scalable data storage with **Snowflake**
-- Real-time visualization and analysis using **Power BI**
-- Supports rainfall, temperature, and humidity pattern analysis
-- Correlation insights between rainfall and crop yield
+## 🏗️ Data Flow Architecture
+1. Data is collected from **Excel/CSV** or **external APIs** and stored in **Azure Blob Storage**.  
+2. **Azure Data Factory** pipelines move and transform data into **Snowflake**.  
+3. **Power BI** connects to Snowflake for live analytics and dashboard creation.  
+4. Dashboards visualize rainfall, humidity, and temperature trends for insights.
 
 ---
 
 ## 📊 Dashboard Preview
 
-### 🌧️ Rainfall Trend Dashboard
+### ☔ Rainfall Trend Dashboard
 ![Rainfall Dashboard](Screenshot%202025-11-08%20013727.png)
 
 ### 🌡️ Temperature & Humidity Overview
 ![Temperature Dashboard](Screenshot%202025-11-08%20013742.png)
 
-### 📅 Seasonal Comparison
+### 🍃 Seasonal Comparison
 ![Humidity Dashboard](Screenshot%202025-11-08%20013756.png)
 
 ### 🌾 Crop Yield vs Rainfall Correlation
@@ -47,35 +59,25 @@ to support **data-driven decision-making** for agriculture and climate analysis.
 
 ---
 
-## 🔗 Power BI Dashboard Link
-
-👉 [**View Interactive Dashboard Here**](https://app.powerbi.com/links/Y3djFHeLgg?ctid=808cc83e-a546-47e7-a03f-73a1ebba24f3&pbi_source=linkShare)
-
----
-
-## 📈 Key Insights
-
-- 📍 Rainfall distribution varies significantly across regions.  
-- 🌡️ Temperature and humidity show strong seasonal correlation.  
-- 🌾 Crop yield improves with moderate, evenly distributed rainfall.  
-- ⚡ Automated data refresh using Azure Data Factory pipelines.
+## 🧠 Insights & Impact
+- Enables **climate pattern forecasting** for specific regions.  
+- Supports **agricultural planning** through data-based rainfall-yield correlation.  
+- Demonstrates integration of **ETL pipelines**, **cloud warehousing**, and **BI visualization**.  
 
 ---
 
-## 🚀 How to Reproduce
-
-1. Collect raw rainfall datasets (CSV/Excel).  
-2. Ingest data using Azure Dataflow and load into Snowflake.  
-3. Connect Power BI to Snowflake using the connector.  
-4. Build dashboards using Power BI visuals.  
-5. Publish and share using Power BI Service.
+## 🧰 Future Enhancements
+- Integrate **real-time API data** for live updates.  
+- Add **machine learning models** for rainfall prediction.  
+- Deploy **Power BI embedded dashboards** on a web portal.
 
 ---
 
 ## 🧑‍💻 Author
-
 **Yaswanth Kondabattula**  
-📧 yaswanthkondabattula@gmail.com  
-🌐 [https://www.linkedin.com/in/yaswanth0311/](https://www.linkedin.com/in/yaswanth0311/)
+📧 [yaswanth0311@gmail.com](mailto:yaswanth0311@gmail.com)  
+🌐 [GitHub Profile](https://github.com/Yaswanth0311)
 
+---
 
+⭐ *If you like this project, don’t forget to star the repo!* ⭐
