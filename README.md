@@ -22,7 +22,12 @@ to support **data-driven decision-making** for agriculture and climate analysis.
 ---
 
 ## ⚙️ Data Flow Architecture
-
+## 🌟 Key Features
+- Automated data ingestion using **Azure Data Factory**
+- Scalable data storage with **Snowflake**
+- Real-time visualization and analysis using **Power BI**
+- Supports rainfall, temperature, and humidity pattern analysis
+- Correlation insights between rainfall and crop yield
 
 ---
 
